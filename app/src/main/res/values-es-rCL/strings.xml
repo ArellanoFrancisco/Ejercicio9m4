@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio9</string>
+    <string name="icecream">Un Helado</string>
+    <string name="headset">Un Auricular</string>
+    <string name="like">Un Me Gusta</string>
+    <string name="chosen">Imagen elegida</string>
+    <string name="wine">" Una Copa de Vino"</string>
+    <string name="button1">Cerrar App</string>
+    <string name="button2">Atras</string>
+</resources>

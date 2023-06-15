@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejercicio9</string>
+    <string name="icecream">A Icecream</string>
+    <string name="headset">A Headset</string>
+    <string name="like">A Like</string>
+    <string name="chosen">chosen image</string>
+    <string name="wine">A cup of wine</string>
+    <string name="button1">Close App</string>
+    <string name="button2">Back</string>
+</resources>

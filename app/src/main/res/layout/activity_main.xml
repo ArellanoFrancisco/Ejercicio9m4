@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <ImageView
+        android:id="@+id/icecream"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="103dp"
+        android:baselineAlignBottom="true"
+        android:contentDescription="@string/icecream"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icecream"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/headset"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="103dp"
+        android:baselineAlignBottom="true"
+        android:contentDescription="@string/headset"
+        android:src="@mipmap/headset"
+        app:layout_constraintStart_toEndOf="@+id/icecream"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="37dp"
+        android:baselineAlignBottom="true"
+        android:contentDescription="@string/like"
+        android:src="@mipmap/like"
+        app:layout_constraintStart_toEndOf="@+id/wine"
+        app:layout_constraintTop_toBottomOf="@+id/headset"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/wine"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="37dp"
+        android:baselineAlignBottom="true"
+        android:contentDescription="@string/wine"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/icecream"
+        app:srcCompat="@mipmap/wine"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="98dp"
+        android:backgroundTint="#CA3030"
+        android:text="@string/button1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/wine" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
